@@ -9,7 +9,7 @@ import 'package:movies_flutter/models/search_movie_response.dart';
 class MovieProvider  extends ChangeNotifier {
 
   final String _baseUrl = 'api.themoviedb.org';
-  final String _apiKey = '24b0da270f7f7499fe98810b509b6b8f';
+  final String _apiKey = '24b0da260f7f7479fe88810b509b6b8f';
   final String _language = 'es-ES';
 
   List<Movie> onNowMovie = [];
